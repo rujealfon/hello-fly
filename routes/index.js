@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Fly.io Demo Test' });
+  res.render('index', { title: 'Fly.io Demo Test 1' });
 });
 
 module.exports = router;
